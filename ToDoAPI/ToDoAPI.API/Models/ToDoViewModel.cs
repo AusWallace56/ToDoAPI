@@ -12,6 +12,6 @@ namespace ToDoAPI.API.Models
         public bool Done { get; set; }
         public int CategoryId { get; set; }
 
-        public virtual Category Category { get; set; }
+        public virtual CategoryViewModel Category { get; set; }
     }
 }
